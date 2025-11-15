@@ -14,6 +14,7 @@ Improved computational performance, especially as portfolio size increases
 Full workflow replication of the sensitivities-based method (SBM)
 
 📁 Features
+
 ✔️ Portfolio Processing
 
 Reads trade data from CSV files
@@ -58,7 +59,6 @@ Capital requirement under low / medium / high correlation
 
 Final regulatory charge:
 
-K_final = max(K_low, K_medium, K_high)
 
 ✔️ Sample Portfolio Included
 
@@ -71,23 +71,13 @@ K_final = max(K_low, K_medium, K_high)
 Complete CSV sample files for trades and bucket mapping
 
 🧱 Project Architecture
-Main Components
-Component	Purpose
-CSVParser	Reads input datasets
-Trade	Trade representation with bucket and risk factor metadata
-VolatilityInterpolator	Maps implied volatilities to regulatory tenors
-AADPricer	Computes instrument prices and AAD sensitivities
-CurvatureRiskCalculator	Implements curvature formulas
-SensitivityAggregator	Aggregates risk across factors and buckets
-Main	Orchestrates the full FRTB-SBM workflow
-🔬 Automatic Adjoint Differentiation (AAD)
 
-AAD applies the reverse mode of Automatic Differentiation, efficiently computing all required derivatives by propagating adjoints backward through the computation graph.
+        Component	      |          Purpose
+CSVParser	              |  Reads input datasets
+Trade	                  |  Trade representation with bucket and risk factor metadata
+VolatilityInterpolator	|  Maps implied volatilities to regulatory tenors
+AADPricer	              |  Computes instrument prices and AAD sensitivities
+CurvatureRiskCalculator	|  Implements curvature formulas
+SensitivityAggregator	  |  Aggregates risk across factors and buckets
+Main	                  |  Orchestrates the full FRTB-SBM workflow
 
-Advantages over FD:
-
-Lower numerical error
-
-Better performance for large portfolios
-
-Exact chain rule application
