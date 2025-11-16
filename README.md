@@ -70,7 +70,7 @@ Fully aligned with FRTB standards:
 
 ### Documentation
 - Detailed methodology and results can be found in my MSc thesis (currently available only in Italian).
-- A summary and a test case are included in the project presentation.
+- A summary and a test case are included in the [project presentation](https://github.com/MicheleErcole/AAD-Sensitvities-Calculator/blob/main/Presentation%20and%20test%20case.pdf).
 
 ### Credits
 - Special thanks to [Alessandro Gnoatto](https://github.com/AlessandroGnoatto) at the [University of Verona](https://www.univr.it/home).
