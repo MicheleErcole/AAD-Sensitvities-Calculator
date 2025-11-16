@@ -3,6 +3,8 @@
 This project provides a Java implementation of the **Sensitivities-Based Method (SBM)** of the **Fundamental Review of the Trading Book (FRTB)** framework, integrating **Automatic Adjoint Differentiation (AAD)** to compute exact derivatives for delta, vega, and curvature risk measures.
 The implementation is applied to an equity portfolio containing cash equities, European options, and Bermudan options.
 
+This project makes extensive use of the [Finmath Library](https://github.com/finmath/finmath-lib)
+
 ---
 
 ## 📁 **Features**
@@ -64,3 +66,13 @@ Fully aligned with FRTB standards:
 ---
 ![UML Diagram](UML%20Diagram.png)
 
+## 📌 Project Info
+
+### Documentation
+- Detailed methodology and results can be found in my MSc thesis (currently available only in Italian).
+- A summary and a test case are included in the project presentation.
+
+### Credits
+- Special thanks to [Alessandro Gnoatto](https://github.com/AlessandroGnoatto) at the [University of Verona](https://www.univr.it/home).
+- Special mention to [Christian Fries](https://github.com/cfries) for his work on 
+  [Stochastic Automatic Differentiation](https://christian-fries.de/finmath/stochasticautodiff/).
