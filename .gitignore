@@ -1,0 +1,25 @@
+# Eclipse
+/.metadata
+/.classpath
+/.project
+/.settings/
+/bin/
+/tmp/
+
+# Java
+*.class
+*.log
+
+# Maven
+/target/
+
+# IDE files
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Gradle
+/.gradle/
+

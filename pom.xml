@@ -1,0 +1,52 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>it.tesi</groupId>
+    <artifactId>tesi_michele_ercole</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <!-- Impostazione della versione di Java -->
+    <properties>
+        <maven.compiler.source>19</maven.compiler.source>
+        <maven.compiler.target>19</maven.compiler.target>
+    </properties>
+
+    <dependencies>
+        <!-- Apache Commons CSV per il parsing del CSV -->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-csv</artifactId>
+            <version>1.10.0</version>
+        </dependency>
+
+        <!-- Finmath Library -->
+        <dependency>
+            <groupId>net.finmath</groupId>
+            <artifactId>finmath-lib</artifactId>
+            <version>6.0.19</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <!-- Plugin per forzare l'uso di Java 23 -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version>
+                <configuration>
+                    <release>19</release>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <repositories>
+        <repository>
+            <id>finmath</id>
+            <url>https://www.finmath.net/maven/repository</url>
+        </repository>
+    </repositories>
+</project>

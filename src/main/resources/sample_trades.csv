@@ -1,0 +1,7 @@
+Portfolio,DealNumber,AssetType,OptionStyle,Underlying,OptionType,Currency,Amount,Volatility,Strikes,UnderlyingPrice,Maturity,ExerciseDates,RiskFreeRate
+EQ_PORT,1,Stock,,WMT,,USD,1.0,,,90,,,
+EQ_PORT,2,Stock,,JPM,,USD,1.0,,,100,,,
+EQ_PORT,3,Option,European,AAPL,1.0,USD,1,0.32,100,100,1.5,,0.02
+EQ_PORT,4,Option,European,AMZN,1.0,USD,1,0.25,110,90,2.0,,0.02
+EQ_PORT,5,Option,Bermudan,MSFT,1.0,USD,1,0.30,100;120,100,2.0,1.0;2.0,0.02
+EQ_PORT,6,Option,Bermudan,NFLX,1.0,USD,1,0.32,100;90,100,2.0,1.5;2.0,0.02

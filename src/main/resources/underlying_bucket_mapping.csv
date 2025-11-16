@@ -1,0 +1,31 @@
+Underlying,Bucket,Capitalizzazione,Economia,Settore
+AAPL,8,Grande,Economia avanzata,Tecnologia
+MSFT,8,Grande,Economia avanzata,Tecnologia
+GOOGL,8,Grande,Economia avanzata,Tecnologia
+AMZN,5,Grande,Economia avanzata,Beni di consumo e servizi
+TSLA,7,Grande,Economia avanzata,Energia
+JPM,8,Grande,Economia avanzata,Settore finanziario
+BAC,8,Grande,Economia avanzata,Settore finanziario
+V,8,Grande,Economia avanzata,Settore finanziario
+WMT,5,Grande,Economia avanzata,Beni di consumo e servizi
+PG,5,Grande,Economia avanzata,Beni di consumo e servizi
+T,6,Grande,Economia avanzata,Telecomunicazioni
+VZ,6,Grande,Economia avanzata,Telecomunicazioni
+RIO,7,Grande,Economia avanzata,Estrazione mineraria
+BHP,7,Grande,Economia avanzata,Materiali di base
+NFLX,5,Grande,Economia avanzata,Beni di consumo e servizi
+NVDA,8,Grande,Economia avanzata,Tecnologia
+BABA,1,Grande,Economia emergente,Beni di consumo e servizi
+CHL,2,Grande,Economia emergente,Telecomunicazioni
+VALE,3,Grande,Economia emergente,Estrazione mineraria
+PBR,3,Grande,Economia emergente,Energia
+INFY,4,Grande,Economia emergente,Tecnologia
+RELIANCE,3,Grande,Economia emergente,Energia
+BRK.B,8,Grande,Economia avanzata,Settore finanziario
+RACE,5,Grande,Economia avanzata,Beni di consumo e servizi 
+LDO,6,Grande,Economia avanzata,Industria
+SmallCap_EM,9,Piccola,Economia emergente,Tutti i settori
+SmallCap_ADV,10,Piccola,Economia avanzata,Tutti i settori
+Miscellaneous,11,N/A,N/A,Altro settore
+SP500,12,N/A,Economia avanzata,Indice azionario
+MSCI_EM,13,N/A,Economia emergente,Indice azionario
