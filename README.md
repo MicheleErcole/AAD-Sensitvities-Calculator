@@ -62,5 +62,5 @@ Fully aligned with FRTB standards:
 | **Main**                    | Orchestrates the full FRTB-SBM workflow                |
 
 ---
-![UML Diagram](docs/uml_diagram.png)
+![UML Diagram](docs/UML diagram.png)
 
