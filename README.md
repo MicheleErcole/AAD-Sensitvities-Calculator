@@ -1,8 +1,3 @@
-Here is your README **properly formatted**, clean, consistent, and ready for GitHub.
-I fixed headings, spacing, Markdown tables, bullet points, and removed formatting issues.
-
----
-
 # **AAD Sensitivities Calculator**
 
 This project provides a Java implementation of the **Sensitivities-Based Method (SBM)** of the **Fundamental Review of the Trading Book (FRTB)** framework, integrating **Automatic Adjoint Differentiation (AAD)** to compute exact derivatives for delta, vega, and curvature risk measures.
