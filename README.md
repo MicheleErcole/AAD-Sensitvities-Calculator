@@ -5,18 +5,6 @@ The implementation is applied to an equity portfolio containing cash equities, E
 
 ---
 
-## 📌 **Project Overview**
-
-Under the FRTB regulation, banks must compute market risk capital requirements based on sensitivities. The regulation typically relies on **finite differences (FD)** to approximate derivatives.
-
-This project replaces FD with **Automatic Adjoint Differentiation**, achieving:
-
-* **Exact derivatives** (up to machine precision)
-* **Improved computational performance**, especially for large portfolios
-* **Full workflow replication** of the Sensitivities-Based Method (SBM)
-
----
-
 ## 📁 **Features**
 
 ### ✔️ Portfolio Processing
