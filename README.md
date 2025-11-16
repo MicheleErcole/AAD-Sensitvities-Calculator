@@ -62,22 +62,22 @@ Final regulatory charge:
 
 ✔️ Sample Portfolio Included
 
-2 equities
+        2 equities
 
-2 European options
+        2 European options
 
-2 Bermudan options
+        2 Bermudan options
 
 Complete CSV sample files for trades and bucket mapping
 
 🧱 Project Architecture
 
         Component	      |          Purpose
-CSVParser	              |  Reads input datasets
-Trade	                  |  Trade representation with bucket and risk factor metadata
-VolatilityInterpolator	|  Maps implied volatilities to regulatory tenors
-AADPricer	              |  Computes instrument prices and AAD sensitivities
-CurvatureRiskCalculator	|  Implements curvature formulas
-SensitivityAggregator	  |  Aggregates risk across factors and buckets
-Main	                  |  Orchestrates the full FRTB-SBM workflow
+        CSVParser	              |  Reads input datasets
+        Trade	                  |  Trade representation with bucket and risk factor metadata
+        VolatilityInterpolator	|  Maps implied volatilities to regulatory tenors
+        AADPricer	              |  Computes instrument prices and AAD sensitivities
+        CurvatureRiskCalculator	|  Implements curvature formulas
+        SensitivityAggregator	  |  Aggregates risk across factors and buckets
+        Main	                  |  Orchestrates the full FRTB-SBM workflow
 
